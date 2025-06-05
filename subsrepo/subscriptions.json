@@ -3,32 +3,25 @@
   "lastUpdated": "2025-06-05T11:00:00Z", 
   "subscriptions": [ 
     {
-      "id": "apple-one-bundle",
-      "name": "Apple One",
-      "icon": "https://raw.github.com/Dan8023/MarkBuyicon//main/subsicon/appleone.png",
-      "category": "entertainment",
+      "id": "microsoft-365-family-bundle",
+      "name": "Microsoft 365 家庭套餐",
+      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/microsoft365.png",
+      "category": "productivity",
       "isBundle": true,
       "commonPrices": [
         {
-          "price": 19.95,
-          "currency": "USD",
+          "price": 1198,
+          "currency": "CNY",
           "billingCycle": "annually",
           "isPermanent": false,
-          "description": "个人版"
-        }
-		{
-          "price": 25.95,
-          "currency": "USD",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "家庭版"
+          "description": "家庭版年费"
         }
       ],
       "bundledSubscriptions": [
         {
-          "name": "Apple Music",
-          "icon": "https://raw.github.com/Dan8023/MarkBuyicon/main/subsicon/applemusic.png",
-          "category": "Music",
+          "name": "OneDrive 1TB",
+          "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/onedrive.png",
+          "category": "utility",
           "price": 0,
           "originalPrice": 252,
           "currency": "CNY",
@@ -58,7 +51,7 @@
       "description": "Microsoft 365 家庭版 + OneDrive 1TB + Skype 包月通话，为家庭用户提供完整的办公和沟通解决方案",
       "tags": ["办公", "家庭", "云存储", "通话", "套餐", "Microsoft"],
       "region": ["CN", "US", "Global"],
-      "appStoreId": null
+      "appStoreId": "1450038993"
     },
 	{ 
       "id": "netflix", 
