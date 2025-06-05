@@ -6,15 +6,15 @@
       "id": "apple-one-bundle",
       "name": "Apple One",
       "icon": "https://raw.github.com/Dan8023/MarkBuyicon//main/subsicon/appleone.png",
-      "category": "productivity",
+      "category": "entertainment",
       "isBundle": true,
       "commonPrices": [
         {
-          "price": 1198,
-          "currency": "CNY",
+          "price": 19.95,
+          "currency": "USD",
           "billingCycle": "annually",
           "isPermanent": false,
-          "description": "家庭版年费"
+          "description": "个人版"
         }
       ],
       "bundledSubscriptions": [
