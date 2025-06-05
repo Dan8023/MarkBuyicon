@@ -3,6 +3,33 @@
   "lastUpdated": "2025-05-25T10:00:00Z",
   "subscriptions": [
     {
+      "id": "ipad-final-cut-pro",
+      "name": "iPad版Final Cut Pro",
+      "icon": "logo",
+      "category": "productivity",
+      "commonPrices": [
+        {
+          "price": 4.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "标准版"
+        },
+        {
+          "price": 49.99,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年费版"
+        }
+      ],
+      "website": "https://www.apple.com",
+      "description": "iPad版视频剪辑软件",
+      "tags": ["视频", "剪辑", "final cut pro"],
+      "region": ["US", "Global"],
+      "appStoreId": "1631624924"
+    },
+	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
