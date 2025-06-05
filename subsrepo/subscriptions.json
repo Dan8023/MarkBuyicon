@@ -3,9 +3,9 @@
   "lastUpdated": "2025-06-05T11:00:00Z", 
   "subscriptions": [ 
     {
-      "id": "microsoft-365-family-bundle",
-      "name": "Microsoft 365 家庭套餐",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/microsoft365.png",
+      "id": "apple-one-bundle",
+      "name": "Apple One",
+      "icon": "https://raw.github.com/Dan8023/MarkBuyicon//main/subsicon/appleone.png",
       "category": "productivity",
       "isBundle": true,
       "commonPrices": [
