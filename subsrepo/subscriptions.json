@@ -1,197 +1,27 @@
-{
-  "version": "1.0",
-  "lastUpdated": "2025-05-25T10:00:00Z",
-  "subscriptions": [
-    {
-      "id": "apple-one-bundle",
-      "name": "Apple One",
-      "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appleone.png",
-      "category": "entertainment",
-      "isBundle": true,
-      "commonPrices": [
-        {
-          "price": 19.95,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人"
-        }
-      ],
-      "bundledSubscriptions": [
-        {
-          "name": "Apple Music",
-          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/applemusic.png",
-          "category": "music",
-          "price": 0,
-          "originalPrice": 11.9,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "一亿首歌曲,全无广告干扰",
-          "website": "https://onedrive.live.com",
-          "website": "https://applemusic.com",
-          "tags": ["音乐", "音频"],
-          "appStoreId": "1108187390"
-        },
-        {
-          "name": "Apple TV+",
-          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appletv.png",
-          "category": "video",
-          "price": 0,
-          "originalPrice": 15,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "Apple Original原创节目和电影",
-          "website": "https://www.appletv.com",
-          "tags": ["视频", "娱乐", "Apple", "Apple One"],
-          "appStoreId": "1174078549"
-        }
-		 {
-          "name": "iCloud+",
-          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/icloud.png",
-          "category": "utility",
-          "price": 0,
-          "originalPrice": 15,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "Apple Original原创节目和电影",
-          "website": "https://www.appletv.com",
-          "tags": ["视频", "娱乐", "Apple", "Apple One"],
-          "appStoreId": null
-        }
-      ],
-      "website": "https://www.microsoft.com/zh-cn/microsoft-365",
-      "description": "Microsoft 365 家庭版 + OneDrive 1TB + Skype 包月通话，为家庭用户提供完整的办公和沟通解决方案",
-      "tags": ["办公", "家庭", "云存储", "通话", "套餐", "Microsoft"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": "1450038993"
-    },
-	{
-      "id": "youtube-premium",
-      "name": "YouTube Premium",
-      "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/youtube.png",
-      "category": "video",
-      "commonPrices": [
-        {
-          "price": 11.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        },
-        {
-          "price": 17.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "家庭版"
-        },
-        {
-          "price": 6.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "学生版"
-        }
-      ],
-      "website": "https://www.youtube.com/premium",
-      "description": "YouTube 无广告高级会员服务",
-      "tags": ["视频", "无广告", "YouTube Music", "离线下载", "后台播放"],
-      "region": ["US", "Global"],
-      "appStoreId": "544007664"
-    },
-    {
-      "id": "disney-plus",
-      "name": "Disney+",
-      "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/disney.png",
-      "category": "video",
-      "commonPrices": [
-        {
-          "price": 7.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "标准版"
-        },
-        {
-          "price": 79.99,
-          "currency": "USD",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "年费版"
-        }
-      ],
-      "website": "https://www.disneyplus.com",
-      "description": "迪士尼官方流媒体平台",
-      "tags": ["视频", "迪士尼", "漫威", "星战", "皮克斯", "国家地理"],
-      "region": ["US", "Global"],
-      "appStoreId": "1446075923"
-    },
-    
-   
-    {
-      "id": "adobe-photoshop",
-      "name": "Adobe Photoshop",
-      "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/photoshop.png",
-      "category": "productivity",
-      "commonPrices": [
-        {
-          "price": 20.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "单应用版"
-        },
-        {
-          "price": 239.88,
-          "currency": "USD",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "年费版"
-        },
-        {
-          "price": 148,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "中国版"
-        }
-      ],
-      "website": "https://www.adobe.com/products/photoshop.html",
-      "description": "专业图像编辑软件",
-      "tags": ["设计", "修图", "创意", "专业工具", "Adobe"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": "1449100072"
-    },
-    {
-      "id": "notion",
-      "name": "Notion",
-      "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/notion.png",
-      "category": "productivity",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 8,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "Personal Pro"
-        },
-        {
-          "price": 80,
-          "currency": "USD",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "Personal Pro年费"
-        }
-      ],
-      "website": "https://www.notion.so",
-      "description": "全能工作空间应用",
-      "tags": ["笔记", "协作", "数据库", "模板", "团队"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": "1232780281"
-    }
-  ]
+{ 
+  "version": "1.0.0", 
+  "lastUpdated": "2025-06-05T10:00:00Z", 
+  "subscriptions": [ 
+    { 
+      "id": "netflix", 
+      "name": "Netflix", 
+      "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/netflix.png", 
+      "category": "video", 
+      "commonPrices": [ 
+        { 
+          "price": 30.0, 
+          "currency": "CNY", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "基础版" 
+        } 
+      ], 
+      "website": "https://www.netflix.com", 
+      "description": "全球知名的流媒体视频服务", 
+      "tags": ["视频", "电影", "电视剧", "流媒体"], 
+      "region": ["Global"], 
+      "appStoreId": "363590051", 
+      "isBundle": false 
+    } 
+  ] 
 }
