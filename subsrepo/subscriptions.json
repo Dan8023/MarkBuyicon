@@ -16,6 +16,13 @@
           "isPermanent": false,
           "description": "个人版"
         }
+		{
+          "price": 25.95,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "家庭版"
+        }
       ],
       "bundledSubscriptions": [
         {
