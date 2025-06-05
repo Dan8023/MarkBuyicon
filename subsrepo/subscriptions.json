@@ -5,7 +5,7 @@
     {
       "id": "ipad-final-cut-pro",
       "name": "iPad版Final Cut Pro",
-      "icon": "logo",
+      "icon": "https://raw.github.com/Dan8023/MarkBuyicon/main/subsicon/finalcutpro.png",
       "category": "productivity",
       "commonPrices": [
         {
