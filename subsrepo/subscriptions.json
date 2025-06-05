@@ -2,7 +2,69 @@
   "version": "1.0.0", 
   "lastUpdated": "2025-06-05T10:00:00Z", 
   "subscriptions": [ 
-    { 
+    {
+	  "id": "apple_one", 
+      "name": "Apple One", 
+      "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appleone.png", 
+      "category": "entertainment", 
+      "commonPrices": [
+        { 
+          "price": 19.95, 
+          "currency": "USD", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "个人版" 
+        }, 
+        { 
+          "price": 25.95, 
+          "currency": "USD", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "家庭版" 
+        },
+        { 
+          "price": 37.95, 
+          "currency": "USD", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "高级版" 
+        }		
+      ],
+      "website": "https://www.apple.com/apple-one/", 
+      "description": "Apple 多项服务的套餐订阅", 
+      "tags": ["Apple", "套餐", "音乐", "视频", "游戏"], 
+      "region": ["CN", "US", "Global"], 
+      "isBundle": true, 
+      "bundledSubscriptions": [
+        { 
+          "name": "Apple Music", 
+          "icon": "music.note", 
+          "category": "music", 
+          "price": 0, 
+          "originalPrice": 10.0, 
+          "currency": "CNY", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "音乐流媒体服务", 
+          "website": "https://music.apple.com", 
+          "tags": ["音乐", "流媒体"] 
+        },
+        { 
+          "name": "Apple TV+", 
+          "icon": "tv", 
+          "category": "video", 
+          "price": 0, 
+          "originalPrice": 6.0, 
+          "currency": "CNY", 
+          "billingCycle": "monthly", 
+          "isPermanent": false, 
+          "description": "原创视频内容服务", 
+          "website": "https://tv.apple.com", 
+          "tags": ["视频", "原创内容"] 
+        }
+      ] 		
+	}
+	{ 
       "id": "netflix", 
       "name": "Netflix", 
       "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/netflix.png", 
