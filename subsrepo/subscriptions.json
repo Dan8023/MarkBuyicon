@@ -1778,7 +1778,7 @@
     {
       "id": "apple-arcade",
       "name": "Apple Arcade",
-      "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/applearcade.png",
+      "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/applearcade.png",
       "category": "gaming",
       "isBundle": false,
       "commonPrices": [
