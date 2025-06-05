@@ -26,9 +26,9 @@
       ],
       "bundledSubscriptions": [
         {
-          "name": "OneDrive 1TB",
-          "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/onedrive.png",
-          "category": "utility",
+          "name": "Apple Music",
+          "icon": "https://raw.github.com/Dan8023/MarkBuyicon/main/subsicon/applemusic.png",
+          "category": "Music",
           "price": 0,
           "originalPrice": 252,
           "currency": "CNY",
