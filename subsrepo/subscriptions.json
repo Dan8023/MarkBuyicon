@@ -54,6 +54,20 @@
           "tags": ["视频", "娱乐", "Apple", "Apple One"],
           "appStoreId": "1174078549"
         }
+		 {
+          "name": "iCloud+",
+          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/icloud.png",
+          "category": "tool",
+          "price": 0,
+          "originalPrice": 15,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "Apple Original原创节目和电影",
+          "website": "https://www.appletv.com",
+          "tags": ["视频", "娱乐", "Apple", "Apple One"],
+          "appStoreId": "1174078549"
+        }
       ],
       "website": "https://www.microsoft.com/zh-cn/microsoft-365",
       "description": "Microsoft 365 家庭版 + OneDrive 1TB + Skype 包月通话，为家庭用户提供完整的办公和沟通解决方案",
