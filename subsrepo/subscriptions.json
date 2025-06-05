@@ -34,8 +34,8 @@
           "currency": "USD",
           "billingCycle": "monthly",
           "isPermanent": false,
-          "description": "畅听一亿首歌曲",
-          "website": "https://onedrive.live.com",
+          "description": "一亿首歌曲,全无广告干扰",
+          "website": "https://applemusic.com",
           "tags": ["音乐", "音频"],
           "appStoreId": "1108187390"
         },
@@ -44,12 +44,12 @@
           "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/applearcade/main/subsicon/appletv.PNG",
           "category": "video",
           "price": 0,
-          "originalPrice": 120,
+          "originalPrice": 15,
           "currency": "USD",
           "billingCycle": "monthly",
           "isPermanent": false,
-          "description": "苹果视频",
-          "website": "https://www.skype.com",
+          "description": "Apple Original原创节目和电影",
+          "website": "https://www.appletv.com",
           "tags": ["视频", "娱乐", "Apple", "Apple One"],
           "appStoreId": "304878510"
         }
