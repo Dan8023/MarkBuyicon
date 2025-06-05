@@ -4,7 +4,7 @@
   "subscriptions": [
     {
       "id": "apple-one-bundle",
-      "name": "apple one",
+      "name": "Apple One个人版",
       "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appleone.png",
       "category": "entertainment",
       "isBundle": true,
@@ -19,31 +19,31 @@
       ],
       "bundledSubscriptions": [
         {
-          "name": "OneDrive 1TB",
-          "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/onedrive.png",
-          "category": "utility",
+          "name": "Apple Music",
+          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/applemusic.png",
+          "category": "music",
           "price": 0,
-          "originalPrice": 252,
-          "currency": "CNY",
-          "billingCycle": "annually",
+          "originalPrice": 11.9,
+          "currency": "USD",
+          "billingCycle": "monthly",
           "isPermanent": false,
-          "description": "每人1TB存储（赠送）",
+          "description": "畅听一亿首歌曲",
           "website": "https://onedrive.live.com",
-          "tags": ["云存储", "备份", "Microsoft", "协作"],
-          "appStoreId": "477537958"
+          "tags": ["音乐", "音频"],
+          "appStoreId": "1108187390"
         },
         {
-          "name": "Skype 包月通话",
-          "icon": "https://gitee.com/hmmzzz/markbuyrepo/raw/master/subsicon/skype.png",
-          "category": "lifestyle",
+          "name": "Apple TV+",
+          "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/applearcade/main/subsicon/appletv.PNG",
+          "category": "video",
           "price": 0,
           "originalPrice": 120,
-          "currency": "CNY",
-          "billingCycle": "annually",
+          "currency": "USD",
+          "billingCycle": "monthly",
           "isPermanent": false,
-          "description": "每月60分钟（赠送）",
+          "description": "苹果视频",
           "website": "https://www.skype.com",
-          "tags": ["通话", "视频", "沟通", "Microsoft"],
+          "tags": ["视频", "娱乐", "Apple", "Apple One"],
           "appStoreId": "304878510"
         }
       ],
