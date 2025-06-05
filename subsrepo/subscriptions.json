@@ -4,7 +4,7 @@
   "subscriptions": [
     {
       "id": "apple-one-bundle",
-      "name": "Apple One个人版",
+      "name": "Apple One",
       "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appleone.png",
       "category": "entertainment",
       "isBundle": true,
@@ -15,6 +15,13 @@
           "billingCycle": "monthly",
           "isPermanent": false,
           "description": "个人"
+        }
+        {
+          "price": 25.95,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "家庭"
         }
       ],
       "bundledSubscriptions": [
