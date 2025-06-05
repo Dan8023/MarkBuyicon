@@ -10,11 +10,18 @@
       "isBundle": true,
       "commonPrices": [
         {
-          "price": 500,
-          "currency": "CNY",
+          "price": 19.95,
+          "currency": "USD",
           "billingCycle": "annually",
           "isPermanent": false,
-          "description": "家庭版年费"
+          "description": "个人版"
+        }
+		{
+          "price": 25.95,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "家庭版"
         }
       ],
       "bundledSubscriptions": [
@@ -60,7 +67,7 @@
       "category": "video", 
       "commonPrices": [ 
         { 
-          "price": 30.0, 
+          "price": 40.0, 
           "currency": "CNY", 
           "billingCycle": "monthly", 
           "isPermanent": false, 
