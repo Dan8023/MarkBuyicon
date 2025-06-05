@@ -1,7 +1,41 @@
-{ 
-  "version": "1.0.0", 
-  "lastUpdated": "2025-06-05T12:00:00Z", 
-  "subscriptions": [ 
+{
+  "version": "1.1",
+  "lastUpdated": "2025-05-25T10:00:00Z",
+  "subscriptions": [
+    {
+      "id": "youtube-premium",
+      "name": "YouTube Premium",
+      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
+      "category": "video",
+      "commonPrices": [
+        {
+          "price": 11.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        },
+        {
+          "price": 17.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "家庭版"
+        },
+        {
+          "price": 6.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "学生版"
+        }
+      ],
+      "website": "https://www.youtube.com/premium",
+      "description": "YouTube 无广告高级会员服务",
+      "tags": ["视频", "无广告", "YouTube Music", "离线下载", "后台播放"],
+      "region": ["US", "Global"],
+      "appStoreId": "544007664"
+    },
     {
       "id": "microsoft-365-family-bundle",
       "name": "Microsoft 365 家庭套餐",
