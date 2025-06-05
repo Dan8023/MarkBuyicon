@@ -15,20 +15,6 @@
           "billingCycle": "monthly",
           "isPermanent": false,
           "description": "个人版"
-        },
-		{
-          "price": 1198,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "家庭版"
-        },
-		{
-          "price": 1198,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "高级版"
         }
       ],
       "bundledSubscriptions": [
