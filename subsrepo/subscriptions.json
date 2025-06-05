@@ -51,7 +51,7 @@
       "description": "Microsoft 365 家庭版 + OneDrive 1TB + Skype 包月通话，为家庭用户提供完整的办公和沟通解决方案",
       "tags": ["办公", "家庭", "云存储", "通话", "套餐", "Microsoft"],
       "region": ["CN", "US", "Global"],
-      "appStoreId": "1450038993"
+      "appStoreId": null
     },
 	{ 
       "id": "netflix", 
