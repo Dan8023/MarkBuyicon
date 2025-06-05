@@ -3,67 +3,56 @@
   "lastUpdated": "2025-06-05T11:00:00Z", 
   "subscriptions": [ 
     {
-	  "id": "apple_one", 
-      "name": "Apple One", 
-      "icon": "https://github.com/Dan8023/MarkBuyicon/raw/main/subsicon/appleone.png", 
-      "category": "entertainment", 
+      "id": "microsoft-365-family-bundle",
+      "name": "Microsoft 365 家庭套餐",
+      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/microsoft365.png",
+      "category": "productivity",
+      "isBundle": true,
       "commonPrices": [
-        { 
-          "price": 19.95, 
-          "currency": "USD", 
-          "billingCycle": "monthly", 
-          "isPermanent": false, 
-          "description": "个人版" 
-        }, 
-        { 
-          "price": 25.95, 
-          "currency": "USD", 
-          "billingCycle": "monthly", 
-          "isPermanent": false, 
-          "description": "家庭版" 
-        },
-        { 
-          "price": 37.95, 
-          "currency": "USD", 
-          "billingCycle": "monthly", 
-          "isPermanent": false, 
-          "description": "高级版" 
-        }		
-      ],
-      "website": "https://www.apple.com/apple-one/", 
-      "description": "Apple 多项服务的套餐订阅", 
-      "tags": ["Apple", "套餐", "音乐", "视频", "游戏"], 
-      "region": ["CN", "US", "Global"], 
-      "isBundle": true, 
-      "bundledSubscriptions": [
-        { 
-          "name": "Apple Music", 
-          "icon": "music.note", 
-          "category": "music", 
-          "price": 0, 
-          "originalPrice": 10.0, 
-          "currency": "CNY", 
-          "billingCycle": "monthly", 
-          "isPermanent": false, 
-          "description": "音乐流媒体服务", 
-          "website": "https://music.apple.com", 
-          "tags": ["音乐", "流媒体"] 
-        },
-        { 
-          "name": "Apple TV+", 
-          "icon": "tv", 
-          "category": "video", 
-          "price": 0, 
-          "originalPrice": 6.0, 
-          "currency": "CNY", 
-          "billingCycle": "monthly", 
-          "isPermanent": false, 
-          "description": "原创视频内容服务", 
-          "website": "https://tv.apple.com", 
-          "tags": ["视频", "原创内容"] 
+        {
+          "price": 1198,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "家庭版年费"
         }
-      ]	  
-	}
+      ],
+      "bundledSubscriptions": [
+        {
+          "name": "OneDrive 1TB",
+          "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/onedrive.png",
+          "category": "utility",
+          "price": 0,
+          "originalPrice": 252,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "每人1TB存储（赠送）",
+          "website": "https://onedrive.live.com",
+          "tags": ["云存储", "备份", "Microsoft", "协作"],
+          "appStoreId": "477537958"
+        },
+        {
+          "name": "Skype 包月通话",
+          "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/skype.png",
+          "category": "lifestyle",
+          "price": 0,
+          "originalPrice": 120,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "每月60分钟（赠送）",
+          "website": "https://www.skype.com",
+          "tags": ["通话", "视频", "沟通", "Microsoft"],
+          "appStoreId": "304878510"
+        }
+      ],
+      "website": "https://www.microsoft.com/zh-cn/microsoft-365",
+      "description": "Microsoft 365 家庭版 + OneDrive 1TB + Skype 包月通话，为家庭用户提供完整的办公和沟通解决方案",
+      "tags": ["办公", "家庭", "云存储", "通话", "套餐", "Microsoft"],
+      "region": ["CN", "US", "Global"],
+      "appStoreId": "1450038993"
+    },
 	{ 
       "id": "netflix", 
       "name": "Netflix", 
