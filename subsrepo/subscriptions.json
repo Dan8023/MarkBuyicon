@@ -10,7 +10,7 @@
       "isBundle": true,
       "commonPrices": [
         {
-          "price": 1198,
+          "price": 500,
           "currency": "CNY",
           "billingCycle": "annually",
           "isPermanent": false,
