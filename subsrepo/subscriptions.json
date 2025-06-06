@@ -115,6 +115,62 @@
       "appStoreId": "1108187390"
     },
 	{
+      "id": "apple-fitness",
+      "name": "Apple Fitness+",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/applefitness.png",
+      "category": "lifestyle",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 9.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "月度版"
+        },
+        {
+          "price": 79.99,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年度版"
+        },
+      ],
+      "website": "https://www.apple.com/apple-fitness-plus/",
+      "description": "一款功能强大的健康与健身应用程序",
+      "tags": ["健身", "健康", "Apple", "锻炼", "生活"],
+      "region": ["US", "Global"],
+      "appStoreId": "1208224953"
+    },
+	{
+      "id": "apple-tv",
+      "name": "Apple TV+",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/appletv.png",
+      "category": "video",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 9.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "月度版"
+        },
+        {
+          "price": 99.99,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年度版"
+        },
+      ],
+      "website": "https://www.apple.com/apple-tv-plus/",
+      "description": "苹果自制优选视频软件",
+      "tags": ["视频", "流媒体", "Apple", "剧集", "电影"],
+      "region": ["US", "Global"],
+      "appStoreId": "1174078549"
+    },
+	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
@@ -147,34 +203,6 @@
       "tags": ["视频", "无广告", "YouTube Music", "离线下载", "后台播放"],
       "region": ["US", "Global"],
       "appStoreId": "544007664"
-    },
-	{
-      "id": "apple-fitness",
-      "name": "Apple Fitness+",
-      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/applefitness.png",
-      "category": "lifestyle",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 9.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "月度版"
-        },
-        {
-          "price": 79.99,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "年度版"
-        },
-      ],
-      "website": "https://www.apple.com/apple-fitness-plus/",
-      "description": "一款功能强大的健康与健身应用程序",
-      "tags": ["健身", "健康", "Apple", "锻炼", "生活"],
-      "region": ["US", "Global"],
-      "appStoreId": "1208224953"
     },
 	{
       "id": "youtube-premium",
