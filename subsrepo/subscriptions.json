@@ -54,29 +54,29 @@
     {
       "id": "apple-arcade",
       "name": "Apple Arcade",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/applearcade.png",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/applearcade.png",
       "category": "gaming",
       "isBundle": false,
       "commonPrices": [
         {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        },
-        {
-          "price": 4.99,
+          "price": 6.99,
           "currency": "USD",
           "billingCycle": "monthly",
           "isPermanent": false,
-          "description": "个人版"
-        }
+          "description": "月度版"
+        },
+		{
+          "price": 49.99,
+          "currency": "USD",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年度版"
+        },
       ],
       "website": "https://www.apple.com/apple-arcade/",
       "description": "Apple 游戏订阅服务",
       "tags": ["游戏", "Apple", "无广告", "家庭共享"],
-      "region": ["CN", "US", "Global"],
+      "region": ["US", "Global"],
       "appStoreId": null
     },
 	{
