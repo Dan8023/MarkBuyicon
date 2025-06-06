@@ -205,6 +205,185 @@
       "appStoreId": null
     },
 	{
+      "id": "tencent-video",
+      "name": "腾讯视频",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/tencentvideo.png",
+      "category": "video",
+      "commonPrices": [
+        {
+          "price": 25,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "VIP会员"
+        },
+        {
+          "price": 168,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "VIP年费"
+        },
+        {
+          "price": 35,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "SVIP会员"
+        },
+        {
+          "price": 258,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "SVIP年费"
+        }
+      ],
+      "website": "https://v.qq.com",
+      "description": "腾讯视频流媒体服务",
+      "tags": ["视频", "电影", "电视剧", "综艺", "动漫", "腾讯"],
+      "region": ["CN"],
+      "appStoreId": "458318329"
+    },
+	{
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/bilibili.png",
+      "category": "video",
+      "commonPrices": [
+        {
+          "price": 30,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "超级大会员"
+        },
+        {
+          "price": 168,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年度大会员"
+        },
+        {
+          "price": 40,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "超大月度套餐"
+        },
+        {
+          "price": 25,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "月度大会员"
+        }
+      ],
+      "website": "https://www.bilibili.com",
+      "description": "年轻人的文化社区",
+      "tags": ["视频", "弹幕", "二次元", "UP主", "社区"],
+      "region": ["CN"],
+      "appStoreId": "736536022"
+    },
+    {
+      "id": "youku",
+      "name": "优酷",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/youku.png",
+      "category": "video",
+      "commonPrices": [
+        {
+          "price": 30,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "VIP会员"
+        },
+        {
+          "price": 158,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "VIP年费"
+        },
+        {
+          "price": 50,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "SVIP会员"
+        },
+        {
+          "price": 268,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "SVIP年费"
+        }
+      ],
+      "website": "https://www.youku.com",
+      "description": "阿里巴巴旗下视频平台",
+      "tags": ["视频", "电影", "电视剧", "综艺", "阿里"],
+      "region": ["CN"],
+      "appStoreId": "336141475"
+    },
+	{
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/iqiyi.png",
+      "category": "video",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 30,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "黄金VIP"
+        },
+        {
+          "price": 198,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "黄金VIP年费"
+        },
+        {
+          "price": 50,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "白金VIP"
+        },
+        {
+          "price": 308,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "白金VIP年费"
+        },
+        {
+          "price": 60,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "星钻VIP"
+        },
+        {
+          "price": 448,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "星钻VIP年费"
+        }
+      ],
+      "website": "https://www.iqiyi.com",
+      "description": "中国领先的在线视频平台",
+      "tags": ["视频", "电影", "电视剧", "综艺", "动漫"],
+      "region": ["CN"],
+      "appStoreId": "393765873"
+    },
+	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
@@ -476,130 +655,6 @@
       "tags": ["密码", "安全", "加密", "多平台", "同步"],
       "region": ["CN", "US", "Global"],
       "appStoreId": "1511601750"
-    },
-   
-    {
-      "id": "tencent-video",
-      "name": "腾讯视频",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/tencentvideo.png",
-      "category": "video",
-      "commonPrices": [
-        {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "VIP会员"
-        },
-        {
-          "price": 198,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "VIP年费"
-        },
-        {
-          "price": 50,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "SVIP"
-        },
-        {
-          "price": 308,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "SVIP年费"
-        }
-      ],
-      "website": "https://v.qq.com",
-      "description": "腾讯视频流媒体服务",
-      "tags": ["视频", "电影", "电视剧", "综艺", "动漫", "腾讯"],
-      "region": ["CN"],
-      "appStoreId": "458318329"
-    },
-    {
-      "id": "bilibili",
-      "name": "哔哩哔哩",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/bilibili.png",
-      "category": "video",
-      "commonPrices": [
-        {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "超级大会员"
-        },
-        {
-          "price": 168,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "年度大会员"
-        },
-        {
-          "price": 40,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "超大月度套餐"
-        },
-        {
-          "price": 25,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "月度大会员"
-        }
-      ],
-      "website": "https://www.bilibili.com",
-      "description": "年轻人的文化社区",
-      "tags": ["视频", "弹幕", "二次元", "UP主", "社区"],
-      "region": ["CN"],
-      "appStoreId": "736536022"
-    },
-    {
-      "id": "youku",
-      "name": "优酷",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youku.png",
-      "category": "video",
-      "commonPrices": [
-        {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "VIP会员"
-        },
-        {
-          "price": 158,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "VIP年费"
-        },
-        {
-          "price": 50,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "SVIP会员"
-        },
-        {
-          "price": 268,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "SVIP年费"
-        }
-      ],
-      "website": "https://www.youku.com",
-      "description": "阿里巴巴旗下视频平台",
-      "tags": ["视频", "电影", "电视剧", "综艺", "阿里"],
-      "region": ["CN"],
-      "appStoreId": "336141475"
     },
     {
       "id": "chatgpt-plus",
@@ -1749,62 +1804,6 @@
       "tags": ["视频", "电影", "电视剧", "流媒体", "原创内容"],
       "region": ["CN", "US", "Global"],
       "appStoreId": "363590051"
-    },
-    {
-      "id": "iqiyi",
-      "name": "爱奇艺",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/iqiyi.png",
-      "category": "video",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "黄金VIP"
-        },
-        {
-          "price": 198,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "黄金VIP年费"
-        },
-        {
-          "price": 50,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "白金VIP"
-        },
-        {
-          "price": 308,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "白金VIP年费"
-        },
-        {
-          "price": 60,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "星钻VIP"
-        },
-        {
-          "price": 448,
-          "currency": "CNY",
-          "billingCycle": "annually",
-          "isPermanent": false,
-          "description": "星钻VIP年费"
-        }
-      ],
-      "website": "https://www.iqiyi.com",
-      "description": "中国领先的在线视频平台",
-      "tags": ["视频", "电影", "电视剧", "综艺", "动漫"],
-      "region": ["CN"],
-      "appStoreId": "393765873"
     },
     {
       "id": "adobe-cc",
