@@ -80,6 +80,103 @@
       "appStoreId": null
     },
 	{
+      "id": "apple-music",
+      "name": "Apple Music",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/applemusic.png",
+      "category": "music",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 11,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        },
+        {
+          "price": 17,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "家庭版"
+        },
+        {
+          "price": 6,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "学生版"
+        },
+      ],
+      "website": "https://music.apple.com",
+      "description": "Apple 官方音乐流媒体服务",
+      "tags": ["音乐", "流媒体", "Apple", "高品质", "无损音频"],
+      "region": ["CN", "US", "Global"],
+      "appStoreId": "1108187390"
+    },
+	{
+      "id": "youtube-premium",
+      "name": "YouTube Premium",
+      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
+      "category": "video",
+      "commonPrices": [
+        {
+          "price": 11.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        },
+        {
+          "price": 17.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "家庭版"
+        },
+        {
+          "price": 6.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "学生版"
+        }
+      ],
+      "website": "https://www.youtube.com/premium",
+      "description": "YouTube 无广告高级会员服务",
+      "tags": ["视频", "无广告", "YouTube Music", "离线下载", "后台播放"],
+      "region": ["US", "Global"],
+      "appStoreId": "544007664"
+    },
+	{
+      "id": "apple-fitness",
+      "name": "Apple Fitness+",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/applefitness.png",
+      "category": "lifestyle",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 9.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "月度版"
+        },
+        {
+          "price": 79.99,
+          "currency": "CNY",
+          "billingCycle": "annually",
+          "isPermanent": false,
+          "description": "年度版"
+        },
+      ],
+      "website": "https://apple.com",
+      "description": "一款功能强大的健康与健身应用程序",
+      "tags": ["音乐", "流媒体", "Apple", "高品质", "无损音频"],
+      "region": ["US", "Global"],
+      "appStoreId": "1208224953"
+    },
+	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
@@ -1590,48 +1687,6 @@
       "tags": ["视频", "电影", "电视剧", "流媒体", "原创内容"],
       "region": ["CN", "US", "Global"],
       "appStoreId": "363590051"
-    },
-    {
-      "id": "apple-music",
-      "name": "Apple Music",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/applemusic.png",
-      "category": "music",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 10,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        },
-        {
-          "price": 15,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "家庭版"
-        },
-        {
-          "price": 5,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "学生版"
-        },
-        {
-          "price": 9.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        }
-      ],
-      "website": "https://music.apple.com",
-      "description": "Apple 官方音乐流媒体服务",
-      "tags": ["音乐", "流媒体", "Apple", "高品质", "无损音频"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": "1108187390"
     },
     {
       "id": "iqiyi",
