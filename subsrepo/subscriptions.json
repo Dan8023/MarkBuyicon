@@ -3,6 +3,83 @@
   "lastUpdated": "2025-05-25T10:00:00Z",
   "subscriptions": [
     {
+      "id": "icloud-plus",
+      "name": "iCloud+",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/icloud.png",
+      "category": "utility",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 6,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "50GB"
+        },
+        {
+          "price": 21,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "200GB"
+        },
+        {
+          "price": 68,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "2TB"
+        },
+		{
+          "price": 198,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "6TB"
+        },
+		{
+          "price": 398,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "12TB"
+        }
+      ],
+      "website": "https://www.icloud.com",
+      "description": "Apple 官方云存储服务",
+      "tags": ["云存储", "备份", "Apple", "同步", "隐私保护"],
+      "region": ["CN", "US", "Global"],
+      "appStoreId": null
+    },
+    {
+      "id": "apple-arcade",
+      "name": "Apple Arcade",
+      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/applearcade.png",
+      "category": "gaming",
+      "isBundle": false,
+      "commonPrices": [
+        {
+          "price": 30,
+          "currency": "CNY",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        },
+        {
+          "price": 4.99,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        }
+      ],
+      "website": "https://www.apple.com/apple-arcade/",
+      "description": "Apple 游戏订阅服务",
+      "tags": ["游戏", "Apple", "无广告", "家庭共享"],
+      "region": ["CN", "US", "Global"],
+      "appStoreId": null
+    },
+	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/youtube.png",
@@ -1682,76 +1759,7 @@
       "region": ["CN", "US", "Global"],
       "appStoreId": "1450038993"
     },
-    {
-      "id": "icloud-plus",
-      "name": "iCloud+",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/icloud.png",
-      "category": "utility",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 6,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "50GB"
-        },
-        {
-          "price": 21,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "200GB"
-        },
-        {
-          "price": 68,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "2TB"
-        },
-        {
-          "price": 0.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "50GB"
-        }
-      ],
-      "website": "https://www.icloud.com",
-      "description": "Apple 官方云存储服务",
-      "tags": ["云存储", "备份", "Apple", "同步", "隐私保护"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": null
-    },
-    {
-      "id": "apple-arcade",
-      "name": "Apple Arcade",
-      "icon": "https://raw.githubusercontent.com/Hmmzzz/MarkBuyRepo/main/subsicon/applearcade.png",
-      "category": "gaming",
-      "isBundle": false,
-      "commonPrices": [
-        {
-          "price": 30,
-          "currency": "CNY",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        },
-        {
-          "price": 4.99,
-          "currency": "USD",
-          "billingCycle": "monthly",
-          "isPermanent": false,
-          "description": "个人版"
-        }
-      ],
-      "website": "https://www.apple.com/apple-arcade/",
-      "description": "Apple 游戏订阅服务",
-      "tags": ["游戏", "Apple", "无广告", "家庭共享"],
-      "region": ["CN", "US", "Global"],
-      "appStoreId": null
-    },
+    
     {
       "id": "dedao",
       "name": "得到",
