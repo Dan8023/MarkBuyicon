@@ -170,6 +170,40 @@
       "region": ["US", "Global"],
       "appStoreId": "1174078549"
     },
+    {
+      "id": "apple-one",
+      "name": "Apple One",
+      "icon": "https://raw.githubusercontent.com/Dan8023/MarkBuyicon/main/subsicon/appleone.png",
+      "category": "entertainment",
+      "commonPrices": [
+        {
+          "price": 19.95,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "个人版"
+        },
+        {
+          "price": 25.95,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "家庭版"
+        },
+        {
+          "price": 37.95,
+          "currency": "USD",
+          "billingCycle": "monthly",
+          "isPermanent": false,
+          "description": "高级版"
+        }
+      ],
+      "website": "https://www.apple.com/apple-one/",
+      "description": "Apple, All in one",
+      "tags": ["云存储", "Apple", "备份", "娱乐", "扩容"],
+      "region": ["US", "Global"],
+      "appStoreId": null
+    },
 	{
       "id": "youtube-premium",
       "name": "YouTube Premium",
